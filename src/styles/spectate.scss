@@ -207,10 +207,17 @@ header {
 }
 
 @media (max-width: 500px) {
-  header #headline {
-    font-size: 38px;
-    margin-bottom: 10px;
+
+  header {
+    transform: translateY(-110%) !important; // TODO: do better; 
+    align-items: center;
+
+    #headline {
+      font-size: 38px;
+      margin-bottom: 10px;
+    }
   }
+  
 }
 
 .cover-hed #headline {
